@@ -1,8 +1,11 @@
 blank_issues_enabled: false
 contact_links:
   - name: StackSage Documentation
-    url: https://stacksage.ai/docs
+    url: https://stacksageai.com/docs/
     about: Read the official docs before opening an issue.
+  - name: StackSage Website
+    url: https://stacksageai.com/
+    about: Learn more about StackSage.
   - name: StackSage on PyPI
     url: https://pypi.org/project/stacksage/
     about: Check the latest released version.

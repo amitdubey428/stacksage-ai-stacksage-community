@@ -1,6 +1,6 @@
 # StackSage Community
 
-Welcome to the **StackSage Community** repository — the central place for bugs, feature requests, and questions related to [StackSage](https://github.com/amitdubey428/stacksage-audit).
+Welcome to the **StackSage Community** repository — the central place for bugs, feature requests, and questions related to [StackSage](https://stacksageai.com/).
 
 > **Note:** This repository does not contain source code. It exists solely as a public issue tracker and community hub.
 
@@ -37,9 +37,8 @@ StackSage is an open-source AWS cost & configuration audit tool that helps engin
 
 ## Links
 
-- [StackSage Docs](https://stacksage.ai/docs)
+- [StackSage Docs](https://stacksageai.com/docs/)
 - [PyPI Package](https://pypi.org/project/stacksage/)
-- [Changelog](https://github.com/amitdubey428/stacksage-audit/blob/main/CHANGELOG.md)
 
 ---
 
