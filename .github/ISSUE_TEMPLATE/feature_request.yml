@@ -1,0 +1,55 @@
+name: Feature Request
+description: Suggest a new detector, improvement, or capability
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Have an idea to make StackSage better? We'd love to hear it.
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      description: Which area of StackSage does this relate to?
+      options:
+        - New Detector / Check
+        - Existing Detector Improvement
+        - CLI / UX
+        - Report Output
+        - Configuration / stacksage.yml
+        - CI/CD Integration
+        - Documentation
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem / Motivation
+      description: What problem are you trying to solve, or what gap does this fill?
+      placeholder: "e.g. I'm often unable to detect X because StackSage doesn't check Y..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed Solution
+      description: Describe what you'd like to see. Be as specific as possible.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      description: Have you tried any workarounds? Are there other tools that do this?
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional Context
+      description: Screenshots, links, AWS service names, or anything else useful.

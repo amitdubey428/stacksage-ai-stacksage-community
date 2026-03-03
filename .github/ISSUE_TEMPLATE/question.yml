@@ -1,0 +1,30 @@
+name: Question / Help
+description: Ask a question about setup, configuration, or usage
+title: "[Question]: "
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Before asking, please check the [docs](https://stacksage.ai/docs) and [existing issues](../../issues?q=is%3Aissue+label%3Aquestion).
+
+  - type: textarea
+    id: question
+    attributes:
+      label: Your Question
+      description: What do you need help with?
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: What Have You Tried?
+      description: Share any relevant commands, config snippets, or docs you've already read.
+
+  - type: input
+    id: version
+    attributes:
+      label: StackSage Version
+      description: Run `stacksage --version`
+      placeholder: "e.g. 0.4.2"
